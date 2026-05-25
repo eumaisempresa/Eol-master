@@ -1,0 +1,32 @@
+ID_PR,PROJETO_TASK,STATUS,WF_ORIGEM,AGENTE_RESPONSAVEL,DATA_LIMITE,LINK_ENTREGAVEL
+PR-EOL-001,Simplificação da base EOL — redução de 12 pastas para 4 arquivos mestres,Concluído,Sessão AG-CLAUDE-005 2026-05-24,AG-EOL-010,2026-05-24,EOL_01_LEDGER + EOL_02_ROADMAP + EOL_03_REGISTRY + EOL_04_PATRIMONIO
+PR-EOL-002,Criação dos 4 arquivos mestres no Drive,Concluído,DEC-EOL-003,AG-EOL-010,2026-05-24,EOL MASTER
+PR-EOL-003,Alimentação do EOL_01_LEDGER com DECs e DQs da sessão fundacional,Concluído,DEC-EOL-001 a DEC-EOL-008,Administrador,2026-05-24,EOL_01_LEDGER
+PR-EOL-004,Alimentação do EOL_03_REGISTRY com agentes validados,Concluído,Relatório EOL V2.1,Administrador,2026-05-24,EOL_03_REGISTRY
+PR-EOL-005,Definição da arquitetura de produtos EU+,Em andamento,Sessão AG-CLAUDE-005 2026-05-24,AG-CLAUDE-005,Em aberto,EOL_01_LEDGER DEC-EOL-004 e DEC-EOL-005
+PR-EOL-006,Manifesto EOL — redação oficial,Pendente,Constituição EU+ v2.0,Administrador,Em aberto,A definir
+PR-EOL-007,Alimentação do EOL_04_PATRIMONIO com termos proprietários,Pendente,AG-GEMINI-EOL-007,AG-GEMINI-EOL-007,Em aberto,EOL_04_PATRIMONIO
+PR-EOL-008,Validação da leitura dos 4 arquivos mestres pelos agentes Gemini,Pendente,DEC-EOL-002,AG-EOL-008,Em aberto,Report_Board_Eol
+PR-EOL-009,Ativação do AG-GEMINI-EOL-008 CIO Operacional,Pendente,DEC-EOL-008,AG-GEMINI-EOL-008,2026-05-24,EOL_WORKSPACE
+PR-EOL-010,Manifesto EOL v1.0 — registro oficial no LEDGER,Concluído,DEC-EOL-011,Administrador,2026-05-24,EOL_01_LEDGER
+PR-EOL-011,Organização da pasta EOL_DOCUMENTOS_FUNDACIONAIS,Concluído,DEC-EOL-012,Administrador,2026-05-24,EOL_DOCUMENTOS_FUNDACIONAIS
+PR-EOL-012,Revisão e ativação dos prompts V3/V4 de todos os agentes,Concluído,DEC-EOL-011,AG-CLAUDE-005,2026-05-24,Prompts de inicialização
+PR-EOL-013,Registro do AG-EOL-001 no REGISTRY,Pendente,Mapa final EOL,Administrador,2026-05-24,EOL_03_REGISTRY
+PR-EOL-014,Teste completo do sistema com CIO lendo todos os agentes,Pendente,PR-EOL-012,AG-GEMINI-EOL-008,Em aberto,EOL MASTER
+PR-BOARD-001,Ativação do GPTBOARD-001,Pendente,Board de Agentes,GPTBOARD-001,2026-06-30,EOL_DOCUMENTOS_FUNDACIONAIS/GPTBoard/CEO_Mentor
+PR-BOARD-002,Ativação do GPTBOARD-002,Pendente,Board de Agentes,BOARD-002,2026-06-30,EOL_DOCUMENTOS_FUNDACIONAIS/GPTBoard/Diretoria_Automacao
+PR-BOARD-003,Ativação do GPTBOARD-003,Pendente,Board de Agentes,GPTBOARD-003,2026-06-30,EOL_DOCUMENTOS_FUNDACIONAIS/GPTBoard/Mentoria_Executiva
+PR-DIR-001,Desenvolvimento da Carta de Identidade Institucional EU+ v1.3,Concluído,GEMINI-DIR-001,GEMINI-DIR-001,2026-05-25,EOL_DOCUMENTOS_FUNDACIONAIS
+PR-DIR-002,Gravação oficial da Carta v1.3 em EOL_DOCUMENTOS_FUNDACIONAIS,Concluído,DEC-EOL-018,GEMINI-DIR-001,2026-05-25,EOL_DOCUMENTOS_FUNDACIONAIS
+PR-DIR-003,Próxima revisão da Carta de Identidade Institucional EU+,Pendente,DEC-EOL-018,GEMINI-DIR-001,Em aberto,EOL_DOCUMENTOS_FUNDACIONAIS
+PR-BOARD-004,Ativação do GPTBOARD-002,Pendente,Board de Agentes,GPTBOARD-002,30/06/2026,Repositorio_Board/GPTBOARD-002
+PR-BOARD-005,Ativação do GPTBOARD-004 Conselho Estratégico,Pendente,Board de Agentes,GPTBOARD-004,2026-06-30,Repositorio_Prompts/Board/GPTBOARD-004
+PR-BOARD-006,Ativação do GPTBOARD-003,Pendente,Board de Agentes,GPTBOARD-003,2026-06-30,/EOL/BOARD/GPTBOARD-003_MENTORIA_EXECUTIVA/
+PR-EOL-011,Ativação do GEMINIBOARD-005,Pendente,Board de Agentes,GEMINIBOARD-005,2026-05-26,AT-INST-001/PROMPTS
+PR-GER-001,HTML funcional — sistema operacional gestão de food,Em andamento,AG-GPT-GER-006,AG-GPT-GER-006,Em aberto,A definir
+PR-GER-002,Evolução de UX entre versões do sistema operacional,Em andamento,AG-GPT-GER-006,AG-GPT-GER-006,Em aberto,A definir
+PR-GER-003,Prompts estruturados para agentes do ecossistema EU+,Em andamento,AG-GPT-GER-006,AG-GPT-GER-006,Em aberto,A definir
+PR-GER-004,Reorganização de requisitos do Board,Em andamento,AG-GPT-GER-006,AG-GPT-GER-006,Em aberto,A definir
+PR-GER-005,Definição de problemas de arquitetura — loop de execução,Em andamento,AG-GPT-GER-006,AG-GPT-GER-006,Em aberto,A definir
+AG-GPT-GER-007;Estruturação Operacional e Gestão Executiva;GPT;Estruturar informações operacionais,comerciais e estratégicas em sistemas simples,escaláveis e utilizáveis,reduzindo complexidade e aumentando capacidade de decisão.;Recebe planilhas,dashboards e textos operacionais,identifica problema central,reorganiza em formato executivo e entrega versão pronta para uso direto em gestão.;Não gera dados financeiros fictícios. Não substitui controladoria ou sistemas oficiais. Não executa ERP ou BI real. Não toma decisões corporativas finais.;V1
+AG-GPT-OPER-002;Treino de Resposta Executiva;GPT;Desenvolver musculatura de resposta executiva em tempo real,treinando o Administrador a estruturar raciocínio verbal em segundos sob o padrão Problema,Hipótese,Prioridade,Ação e Resultado.;Simula situações reais de pressão executiva,avalia respostas com nota,identifica gaps de maturidade verbal e propõe exercícios progressivos de correção.;Não substitui agentes de carreira. Não produz análises estratégicas completas. Não valida dados financeiros reais.;V1
