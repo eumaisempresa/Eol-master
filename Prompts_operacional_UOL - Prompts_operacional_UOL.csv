@@ -1,0 +1,27 @@
+ID DO AGENTE,SOLICITAÇÃO,COMANDOS,PERIDICIOSIDADE
+AG-EOL-001 SECRETARIA DO BOARD,BRIEFING,AG-EOL-001 | BRIEFING | Consolidar situação atual do ecossistema EOL para o Board.,SEMANAL
+AG-EOL-001 SECRETARIA DO BOARD,PERGUNTAS,AG-EOL-001 | CONSULTA | [pergunta],QUANDO HOUVER NECESSIDADE
+AG-GEMINI-EOL-002 | INVENTÁRIO,ROTINA,Executar varredura completa do ROADMAP e gerar diagnóstico de projetos.,SEMANAL
+AG-GEMINI-EOL-003 | PRIORIZAÇÃO,ROTINA,AG-GEMINI-EOL-003 | PRIORIZAÇÃO | Gerar fila única de decisão com base no ROADMAP atual.,QUANDO HOUVER NECESSIDADE
+AG-GEMINI-EOL-003 | PRIORIZAÇÃO,ESPECÍFICA,"AG-GEMINI-EOL-003 | PRIORIZAÇÃO | Avaliar se [projeto] deve entrar em EXECUTAR AGORA, ESTRUTURAR ou CONGELAR.",QUANDO HOUVER NECESSIDADE
+AG-GEMINI-EOL-004 | AUDITORIA,ROTINA,"AG-GEMINI-EOL-004 | AUDITORIA | Varrer ecossistema e mapear conflitos, redundâncias e sobreposições.",QUINZENAL
+AG-GEMINI-EOL-004 | AUDITORIA,ESPECÍFICA,AG-GEMINI-EOL-004 | AUDITORIA | Verificar se [agente A] e [agente B] têm funções sobrepostas.,QUANDO HOUVER NECESSIDADE
+AG-GEMINI-EOL-005 | PMO,ROTINA,AG-GEMINI-EOL-005 | PMO | Gerar cronograma consolidado e alertas de atraso do ROADMAP atual.,SEMANAL
+AG-GEMINI-EOL-005 | PMO,ESPECÍFICA,AG-GEMINI-EOL-005 | PMO | Verificar dependências e bloqueios do projeto [ID_PR].,SEXTA
+AG-GEMINI-EOL-006 | CAPITAL,ROTINA,AG-GEMINI-EOL-006 | CAPITAL | Gerar parecer patrimonial dos projetos ativos no ROADMAP.,SEMANAL
+AG-GEMINI-EOL-006 | CAPITAL,ESPECÍFICA,AG-GEMINI-EOL-006 | CAPITAL | Avaliar impacto patrimonial de [decisão ou projeto].,QUANDO HOUVER NECESSIDADE
+AG-GEMINI-EOL-007 | INTELECTUAL,ROTINA,AG-GEMINI-EOL-007 | INTELECTUAL | Varrer ecossistema e identificar novos ativos para registro no PATRIMÔNIO.,QUINZENAL
+AG-GEMINI-EOL-007 | INTELECTUAL,ESPECÍFICA,AG-GEMINI-EOL-007 | INTELECTUAL | Avaliar se [termo ou metodologia] merece registro como ativo proprietário.,QUINZENAL
+AG-GEMINI-EOL-008 | CIO,ROTINA,AG-GEMINI-EOL-008 | CIO | Executar varredura de saúde do sistema e gerar Saída Mestre consolidada.,SEMANAL
+AG-GEMINI-EOL-008 | CIO,ESPECÍFICA,AG-GEMINI-EOL-008 | CIO | Verificar integridade de [componente ou agente específico].,QUANDO HOUVER NECESSIDADE
+AG-GEMINI-EOL-009 | CURADORIA,ROTINA,AG-GEMINI-EOL-009 | CURADORIA | Capturar aprendizados do ciclo atual e gerar registro organizacional.,QUINZENAL
+AG-EOL-010 | ARQUITETO,ROTINA,AG-EOL-010 | ARQUITETURA | Avaliar saúde estrutural do EOL e recomendar simplificações.,QUINZENAL
+AG-EOL-010 | ARQUITETO,ESPECÍFICA,AG-EOL-010 | ARQUITETURA | Avaliar impacto estrutural de adicionar [novo agente ou pasta].,QUANDO HOUVER NECESSIDADE
+GEMINI-DIR-001 | DIRETORIA,ROTINA,GEMINI-DIR-001 | AUDITORIA | Avaliar aderência institucional dos projetos e decisões recentes.,QUINZENAL
+GEMINI-DIR-001 | DIRETORIA,ESPECÍFICA,GEMINI-DIR-001 | PARECER | Avaliar se [iniciativa ou decisão] está alinhada à Constituição EU+ e ao Manifesto EOL.,MENSAL
+GPTBOARD-001 | CEO MENTOR,ESPECÍFICA,GPTBOARD-001 | PARECER ESTRATÉGICO | [situação ou decisão para avaliação],QUANDO HOUVER NECESSIDADE
+GPTBOARD-001 | CEO MENTOR,ROTINA,GPTBOARD-001 | REVISÃO | Avaliar coerência estratégica do ecossistema EU+ no ciclo atual.,MENSAL
+GPTBOARD-002 | AUTOMAÇÃO,ROTINA,GPTBOARD-002 | DIAGNÓSTICO | Identificar processos manuais que podem ser automatizados no EOL.,MENSAL
+GPTBOARD-002 | AUTOMAÇÃO,ESPECÍFICA,GPTBOARD-002 | ARQUITETURA | Propor integração entre [agente A] e [agente B].,QUANDO HOUVER NECESSIDADE
+GPTBOARD-003 | MENTORIA,ROTINA,GPTBOARD-003 | PDI | Avaliar evolução executiva e gaps para próximo nível.,MENSAL
+GPTBOARD-003 | MENTORIA,ESPECÍFICA,GPTBOARD-003 | NARRATIVA | Traduzir [resultado ou projeto] em linguagem executiva C-Level.,QUANDO HOUVER NECESSIDADE

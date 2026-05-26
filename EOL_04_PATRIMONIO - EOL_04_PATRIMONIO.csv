@@ -1,0 +1,27 @@
+PREFIXO_ID,SIGNIFICADO,REGRA_DE_USO,EXEMPLO_REAL,LINK_ATIVO
+DEC,Decisão formal aprovada pelo Administrador,Numeração sequencial. Toda mudança estrutural exige DEC registrada no LEDGER.,DEC-EOL-001,EOL_01_LEDGER
+DQ,Diretriz de Qualidade,Numeração sequencial. Define critérios de aceitação para entregas dos agentes.,DQ-001,EOL_01_LEDGER
+PR,Projeto ou Task formal,Numeração sequencial por contexto. Só entra no ROADMAP o que foi validado.,PR-EOL-001,EOL_02_ROADMAP
+AG,Agente IA registrado,Padrão: AG-[PLATAFORMA]-EOL-[NÚMERO]. Só opera agente registrado no REGISTRY.,AG-GEMINI-EOL-002,EOL_03_REGISTRY
+CFG,Configuração técnica de agente,Vinculada ao ID_AGENTE no REGISTRY. Versão obrigatória.,CFG-001,EOL_03_REGISTRY
+PM,Prompt Mestre,"Vinculado ao ID_AGENTE. Contém missão, limites e instruções de operação.",PM-GEM-EOL-V1,EOL_03_REGISTRY
+AT,Ativo Intangível Proprietário,Termo criado e protegido pelo Grupo EU+. Registro obrigatório com símbolo ™.,AT-001,EOL_04_PATRIMONIO
+Gestão Evolutiva™,Ativo Intangível Proprietário — metodologia de crescimento por consistência,Uso exclusivo do Grupo EU+. Não replicar sem referência à fonte.,AT-001,A definir
+Estoque Real™,Ativo Intangível Proprietário — conceito de inventário baseado em evidência real,Uso exclusivo do Grupo EU+. Não replicar sem referência à fonte.,AT-002,A definir
+Rotina Guiada de Operação™,Ativo Intangível Proprietário — protocolo de operação assistida por agentes,Uso exclusivo do Grupo EU+. Não replicar sem referência à fonte.,AT-003,A definir
+EOL,Evolução Organizacional do Legado,Nome oficial do sistema de memória organizacional do Grupo EU+.,EOL MASTER,EOL MASTER
+EU+,Nome oficial do Grupo,Sempre grafado com o símbolo ⁺. Nunca abreviado ou alterado.,Grupo EU+,A definir
+Report_Board_Eol,Pasta oficial de saída dos agentes,Todo agente grava seu output aqui. Nomenclatura: [ID_AGENTE]_[NOME]_Report_YYYY-MM-DD.,AG-EOL-008_CIO_Report_2026-05-24,Drive EOL MASTER
+BOARD,Conjunto de agentes posicionados acima da governança operacional do EOL.,Utilizado para agentes de aconselhamento estratégico e suporte à Presidência.,BOARD-001 CEO Mentor,Governanca_Estrategica
+CEO,Camada máxima de aconselhamento estratégico do ecossistema.,Reservado ao agente responsável por visão sistêmica e direcionamento institucional.,CEO Mentor,Governanca_Estrategica
+CEO Mentor™,Arquétipo de Conselheiro Estratégico de IA,"Modelo de agente que atua como principal conselheiro da Presidência, preservando visão de longo prazo acima das urgências operacionais.",GPTBOARD-001,EOL_DOCUMENTOS_FUNDACIONAIS
+DIR,Prefixo da Diretoria Institucional do Grupo EU+,Utilizado para agentes da camada de governança doutrinária entre Board e EOL Master.,GEMINI-DIR-001,EOL_03_REGISTRY
+Carta de Identidade Institucional EU+,Documento fundacional de doutrina do Grupo EU+,Terceiro documento fundacional oficial. Complementa Constituição EU+ e Manifesto EOL. Versionado formalmente via DEC.,Carta_Identidade_Institucional_EU+_v1.3,EOL_DOCUMENTOS_FUNDACIONAIS
+Critério Supremo de Avaliação,Pergunta norteadora suprema do Grupo EU+,Toda iniciativa deve responder se fortalece propósito e ativos ou apenas consome energia sem ampliar legado.,DQ-006,EOL_01_LEDGER
+Crenças Fundamentais EU+,Conjunto de premissas filosóficas inegociáveis que ancoram o Grupo EU+,Registradas na Carta de Identidade Institucional v1.3. Imutáveis sem DEC formal.,Carta_Identidade_Institucional_EU+_v1.3,EOL_DOCUMENTOS_FUNDACIONAIS
+GPTBOARD,Identificador oficial dos agentes pertencentes ao Board Estratégico do Grupo EU+.,Utilizar exclusivamente para agentes da Camada 2 (Board Estratégico). Não utilizar em agentes EOL ou operacionais.,GPTBOARD-002 Diretoria de Automação Estratégica.,Repositorio_Board
+GPTBOARD,Prefixo oficial para agentes da camada Board Estratégico.,"Utilizar exclusivamente em agentes de governança, orientação e supervisão estratégica.",GPTBOARD-004 Conselho Estratégico.,Repositorio_Prompts/Board
+PEX,Posicionamento Executivo,"Prefixo utilizado para identificar frameworks, análises, indicadores e documentos relacionados à evolução executiva, governança, influência organizacional e preparação para posições de Diretoria e C-Level.",PEX-001 Diagnóstico de Maturidade Executiva Bruno Vieira,/PATRIMONIO/PEX/
+GEMINIBOARD,Agentes de IA da Camada 2 (Board Estratégico),"Reservado para IAs que atuam em governança, conselho e diretriz estratégica.",GEMINIBOARD-005,AT-INST-001
+PR-GER,Prefixo de projetos das Gerências operacionais,Utilizado para projetos e entregas das gerências da Camada 4. Sequência independente do PR-EOL.,PR-GER-001,EOL_02_ROADMAP
+PR-OPER,Prefixo de projetos da camada Operacional,Utilizado para projetos e entregas dos agentes OPER abaixo das gerências.,A definir,EOL_02_ROADMAP

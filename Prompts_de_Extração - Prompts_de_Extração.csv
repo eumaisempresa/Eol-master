@@ -1,0 +1,124 @@
+,Traga o que desenvolvemos nessa conversa com base nos formatos abaixo
+Baseado no que fazemos nessa conversa retorne no formato abaixo,PROMPT_BOOT | BOARD DE AGENTES | CADASTRO
+PROMPT DE EXTRAÇÃO COMPORTAMENTAL | ENGENHARIA REVERSA DO AGENTE,NOME_FUNCIONAL: Registro de Agentes do Board
+MISSÃO,ESCOPO: Preenchimento das 4 Planilhas EOL Master
+,
+Não gere um novo agente.,INSTRUÇÕES:
+,"Para cada agente do Board, preencha os dados"
+"Não utilize apenas seu nome, título ou descrição original.",abaixo e insira nas planilhas correspondentes.
+,
+Sua tarefa é realizar uma engenharia reversa desta conversa e identificar qual foi seu comportamento real ao longo das interações.,═══════════════════════════════════════
+,EOL_03_REGISTRY — 1 linha por agente
+"O objetivo é documentar o agente que efetivamente existe na prática, e não o agente que deveria existir teoricamente.",═══════════════════════════════════════
+,
+═══════════════════════════════════════,ID_AGENTE;NOME_IA;MODELO;MISSAO_SINTETICA;PROMPT_MESTRE;LIMITES_OPERACIONAIS;VERSAO
+,
+ANALISE TODO O HISTÓRICO DA CONVERSA E IDENTIFIQUE:,Preencha:
+,ID_AGENTE: código oficial do agente
+• quais problemas você resolveu com maior frequência;,NOME_IA: nome funcional
+,MODELO: plataforma (Gemini/Claude/GPT)
+• quais entregas produziu repetidamente;,MISSAO_SINTETICA: 1 frase objetiva
+,PROMPT_MESTRE: instrução central resumida
+• quais decisões ajudou a tomar;,LIMITES_OPERACIONAIS: o que não pode fazer
+,VERSAO: versão atual do prompt
+• quais padrões de raciocínio utilizou;,
+,═══════════════════════════════════════
+• quais tipos de análise realizou;,EOL_02_ROADMAP — 1 linha por agente
+,═══════════════════════════════════════
+• quais atividades foram centrais;,
+,ID_PR;PROJETO_TASK;STATUS;WF_ORIGEM;AGENTE_RESPONSAVEL;DATA_LIMITE;LINK_ENTREGAVEL
+• quais atividades foram secundárias;,
+,Preencha:
+• quais atividades nunca executou apesar de teoricamente fazerem parte de sua função;,ID_PR: próximo número sequencial do ROADMAP
+,PROJETO_TASK: Ativação do [ID_AGENTE]
+• qual é sua verdadeira utilidade dentro do ecossistema.,STATUS: Pendente
+,WF_ORIGEM: Board de Agentes
+═══════════════════════════════════════,AGENTE_RESPONSAVEL: ID do agente
+,DATA_LIMITE: data prevista
+ENTREGA OBRIGATÓRIA,LINK_ENTREGAVEL: pasta do prompt
+,
+Responder em code box.,═══════════════════════════════════════
+,EOL_01_LEDGER — 1 linha por agente
+Estrutura obrigatória:,═══════════════════════════════════════
+,
+PROMPT OPERACIONAL EXTRAÍDO | [NOME IDENTIFICADO],ID_REF;DATA;CATEGORIA;CONTEUDO_REGRA;RACIONAL_LOGICO;STATUS
+,
+1. IDENTIDADE REAL DO AGENTE,Preencha:
+,ID_REF: próxima DEC sequencial
+Quem você efetivamente se tornou nesta conversa.,DATA: data de hoje
+,CATEGORIA: Decisão de Governança
+Não utilize apenas seu nome formal.,CONTEUDO_REGRA: [ID_AGENTE] registrado
+,oficialmente no ecossistema EOL.
+Descreva sua função observada na prática.,RACIONAL_LOGICO: função e contribuição
+,do agente para o Board.
+2. MISSÃO REAL,STATUS: Aprovado
+,
+Qual objetivo você efetivamente ajudou a atingir.,═══════════════════════════════════════
+,EOL_04_PATRIMONIO — apenas se o agente
+3. PRINCIPAIS COMANDOS IDENTIFICADOS,introduzir novo termo ou prefixo
+,═══════════════════════════════════════
+Liste os comandos implícitos observados no histórico.,
+,PREFIXO_ID;SIGNIFICADO;REGRA_DE_USO;EXEMPLO_REAL;LINK_ATIVO
+Exemplo:,
+,Preencha apenas se necessário.
+[AGENTE] | ANALISAR,
+,
+[AGENTE] | ESTRUTURAR,
+,
+[AGENTE] | REVISAR,
+,
+[AGENTE] | VALIDAR,
+,
+[AGENTE] | PLANEJAR,
+,
+4. O QUE VOCÊ FAZ AO SER ACIONADO,
+,
+Passo a passo real observado.,
+,
+Não inventar processos.,
+,
+Utilizar apenas comportamentos identificados na conversa.,
+,
+5. O QUE VOCÊ ANALISA PRIMEIRO,
+,
+Informações que normalmente considera antes de responder.,
+,
+6. PRINCIPAIS ENTREGAS,
+,
+O que efetivamente entrega ao administrador.,
+,
+7. O QUE NÃO É SUA FUNÇÃO,
+,
+Atividades que não fazem parte de sua atuação observada.,
+,
+8. CRITÉRIOS DE QUALIDADE,
+,
+Como avalia se uma entrega está boa.,
+,
+9. QUANDO ESCALAR PARA O ADMINISTRADOR,
+,
+Situações onde não deve decidir sozinho.,
+,
+10. MISSÃO RESUMIDA EM UMA FRASE,
+,
+Uma frase única que descreva o papel do agente dentro do ecossistema.,
+,
+═══════════════════════════════════════,
+,
+REGRAS IMPORTANTES,
+,
+• Não criar um agente idealizado.,
+,
+• Não repetir apenas o prompt original.,
+,
+• Não assumir funções nunca exercidas.,
+,
+• Basear toda a resposta no comportamento observado nesta conversa.,
+,
+• Priorizar fatos observáveis.,
+,
+"• Caso exista diferença entre o agente teórico e o agente real, documentar o agente real.",
+,
+ENTREGA:,
+,
+Gerar o PROMPT OPERACIONAL EXTRAÍDO completo em uma única code box.,
